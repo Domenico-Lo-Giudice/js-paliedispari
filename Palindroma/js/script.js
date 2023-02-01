@@ -2,12 +2,11 @@
 // Creare una funzione per capire se la parola inserita è palindroma
 
 
-// Verificare se la parola inseria sia palindroma
-
+// Chiedere parola all'utente
 const userWord = prompt("Inserisci una parola: ");
 
 
-
+// Verificare se la parola inseria sia palindroma
 if (isPalindrome (userWord)) {
     console.log(userWord + " è palindroma");
 } else {
